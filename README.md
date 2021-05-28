@@ -1,9 +1,9 @@
 # leverxCoursesJavaHW
-## Первое HW: создание .jar файла с помощью консоли 
-### инструкция создания:
-- 1. создать каталог 
-- 2. создать в этом каталоге структуру каталогов. у меня:  JarTest/com/leverxCourses/jar
-- 3. создать в блокноте файл Нello.java. код в файле следующий:
+## First HW: create a .jar file using console
+### instruction:
+- 1. create a directory
+- 2. create a directory structure in this directory. i.e: JarTest / com / leverxCourses / jar
+- 3. create a java file in notepad. the code in notepad i.e:
 ```java
 package com.leverxCourse.jar;
  
@@ -14,7 +14,7 @@ public class Hello{
     }
 }
 ```
-- 4. далее в командной строке компилировать файл Hello.java командой javac com/leverxCourse/jar/Hello.java
-- 5. создать jar файл командой jar cf hw.jar javac com/leverxCourse/jar/Hello.class
+- 4. then, using console, compile the Hello.java file with the command javac com / leverxCourse / jar / Hello.java
+- 5. create jar file in console using command jar cf hw.jar javac com / leverxCourse / jar / Hello.class 
 - также разобралась с установкой переменных среды JAVA_HOME и Path (правда, пока доперло почему не работает команда в консоли jar cf полгода прошло..)
-- P.S скинула исходник и результат на всякий
+- P.S environment variables JAVA_HOME and Path must be set.
