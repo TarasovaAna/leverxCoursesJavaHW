@@ -16,5 +16,4 @@ public class Hello{
 ```
 - 4. then, using console, compile the Hello.java file with the command javac com / leverxCourse / jar / Hello.java
 - 5. create jar file in console using command jar cf hw.jar javac com / leverxCourse / jar / Hello.class 
-- также разобралась с установкой переменных среды JAVA_HOME и Path (правда, пока доперло почему не работает команда в консоли jar cf полгода прошло..)
 - P.S environment variables JAVA_HOME and Path must be set.
